@@ -1,2 +1,8 @@
 # wav2vec2
+
 Example using wav2vec 2.0 on some sample wav files
+
+Original example taken from article https://pub.towardsai.net/speech-to-text-with-wav2vec-2-0-b21c1e1ad701, but had problems running librosa in AWS so modified code to remove librosa.  A few other tweaks required as transformer code had been deprecated.
+
+[speech.ipynb](./speech.ipynb) is main notebook.
+
